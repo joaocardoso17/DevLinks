@@ -9,3 +9,9 @@ function toggleMode() {
     img.setAttribute("src", "./assets/avatar.png")
   }
 }
+const portfolioLink = document.querySelector("#portfolio-link")
+
+portfolioLink.addEventListener("click", (event) => {
+  event.preventDefault()
+  alert("Portfólio em breve!")
+})
